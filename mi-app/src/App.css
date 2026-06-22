@@ -1,0 +1,151 @@
+/* ==========================================
+   CONFIGURACIÓN GENERAL Y COLORES PLANOS
+   ========================================== */
+:root {
+  --bg-principal: #000000;
+  --bg-tarjetas: #ffffff;
+  --color-borde: #1a1a1a; /* Bordes oscuros y bien definidos */
+  --texto-principal: #1a1a1a;
+  --texto-secundario: #4a4a4a;
+  --color-acento: #2563eb; /* Azul sólido para enlaces y destaques */
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  line-height: 1.6;
+}
+
+/* ==========================================
+   ESTRUCTURA GENERAL (LAYOUT)
+   ========================================== */
+.wiki-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Barra de Navegación Superior */
+.wiki-navbar {
+  background-color: var(--bg-tarjetas);
+  border-bottom: 3px solid var(--color-borde); /* Línea gruesa y definida */
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.wiki-navbar h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--texto-principal);
+}
+
+/* Cuerpo de la Wiki: Contenedor Grid de 2 Columnas */
+.wiki-body {
+  display: grid;
+  grid-template-columns: 1fr 320px; /* El contenido toma el resto, el Infobox toma 320px */
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+/* ==========================================
+   CONTENIDO PRINCIPAL (ARTÍCULO)
+   ========================================== */
+.wiki-content {
+  background-color: var(--bg-tarjetas);
+  border: 3px solid var(--color-borde); /* Marco sólido estilo cómic/vector */
+  padding: 30px;
+  border-radius: 4px;
+  color: var(--texto-principal);
+}
+
+.wiki-content h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 800;
+  border-bottom: 3px solid var(--color-borde);
+  padding-bottom: 10px;
+  color: var(--texto-principal);
+}
+
+.wiki-content h2 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  font-weight: 700;
+  color: var(--texto-principal);
+}
+
+.wiki-content p {
+  color: var(--texto-secundario);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.wiki-content ul {
+  padding-left: 20px;
+}
+
+.wiki-content li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+/* ==========================================
+   INFOBOX (TARJETA LATERAL DE DATOS)
+   ========================================== */
+.wiki-infobox {
+  background-color: var(--bg-tarjetas);
+  border: 3px solid var(--color-borde); /* Contorno grueso */
+  border-radius: 4px;
+  padding: 15px;
+  align-self: start; /* Evita que se estire hacia abajo innecesariamente */
+}
+
+.wiki-infobox h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: var(--color-borde);
+  color: #65e4f0;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.infobox-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.infobox-table th, 
+.infobox-table td {
+  padding: 8px 4px;
+  font-size: 0.95rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.infobox-table th {
+  font-weight: 700;
+  color: var(--texto-principal);
+  width: 40%;
+}
+
+.infobox-table td {
+  color: var(--texto-secundario);
+}
+
+.infobox-table tr:last-child th,
+.infobox-table tr:last-child td {
+  border-bottom: none; /* Quita la última línea */
+}
