@@ -177,3 +177,18 @@ body {
     padding: 20px;
   }
 }
+
+.doc-article,
+.doc-section {
+  color: var(--texto-principal);
+}
+
+.doc-article h1,
+.doc-article h2,
+.doc-article p,
+.doc-article li,
+.doc-section h2,
+.doc-section p,
+.doc-section li {
+  color: var(--texto-principal);
+}
