@@ -19,12 +19,12 @@ export default function InicioAstJos() {
         <h2>Estructura recomendada</h2>
         <ul>
           <li>Inicio: visión general del proyecto.</li>
-          <li>Instalación: pasos base para preparar el entorno.</li>
-          <li>Active Directory: conceptos y roles fundamentales.</li>
+          <li>Instalación: pasos base para preparar el entorno del servidor</li>
+          <li>Active Directory: conceptos y roles fundamentales y almacen de objetos</li>
           <li>Cliente de dominio: proceso de integración.</li>
-          <li>Servicios de red: DHCP, DNS y servicios compartidos.</li>
-          <li>GPO: políticas y administración de usuarios.</li>
-          <li>Prompts: plantillas útiles para tareas frecuentes.</li>
+          <li>Servicios de red: DHCP, DNS y servicios de resolucion de nombres,asignacion de direcciones Ip.</li>
+          <li>GPO: políticas de Grupo, reglas de conficaracion de dfinicion del servidor.</li>
+          <li>Prompts: Plantillas útiles para ayudar el resultado de perfeccionamiento del Css, Dudas de React.</li>
         </ul>
       </section>
     </article>
