@@ -1,20 +1,20 @@
-export default function Infobox() {
+export default function Infocontent() {
   return (
     <aside className="wiki-infobox">
-      <h3>Datos Técnicos</h3>
+      <h3>Resumen del laboratorio</h3>
       <table className="infobox-table">
         <tbody>
           <tr>
-            <th>Clasificación</th>
-            <td>Pecio Espacial</td>
+            <th>Proyecto</th>
+            <td>AstJos Wiki</td>
           </tr>
           <tr>
-            <th>Ubicación</th>
-            <td>Sector Desconocido</td>
+            <th>Enfoque</th>
+            <td>Infraestructura y dominios</td>
           </tr>
           <tr>
-            <th>Nivel de Amenaza</th>
-            <td>Extremo</td>
+            <th>Estado</th>
+            <td>Base de contenidos en construcción</td>
           </tr>
         </tbody>
       </table>
