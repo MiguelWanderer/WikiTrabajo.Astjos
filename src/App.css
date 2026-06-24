@@ -167,3 +167,6 @@ body {
     padding: 20px;
   }
 }
+.doc-section{
+color: var(--texto-principal);
+}
