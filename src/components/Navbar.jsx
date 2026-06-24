@@ -1,7 +1,7 @@
 export default function Navbar({ sections, activeSection, onSelectSection }) {
   return (
     <nav className="wiki-navbar">
-      <h2>Wiki AstJos</h2>
+      <h2>Wiki Windows Server 2025</h2>
       <div className="wiki-nav-links">
         {sections.map((section) => (
           <button
