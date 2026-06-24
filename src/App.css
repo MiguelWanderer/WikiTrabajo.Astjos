@@ -108,6 +108,16 @@ body {
   padding-left: 20px;
 }
 
+.doc-section {
+  color: var(--texto-principal);
+}
+
+.doc-section h2,
+.doc-section p,
+.doc-section li {
+  color: var(--texto-principal);
+}
+
 .wiki-infobox {
   background-color: var(--bg-tarjetas);
   border: 3px solid var(--color-borde);
@@ -166,7 +176,4 @@ body {
   .wiki-content {
     padding: 20px;
   }
-}
-.doc-section{
-color: var(--texto-principal);
 }
