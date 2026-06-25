@@ -6,11 +6,11 @@ export default function Infocontent() {
         <tbody>
           <tr>
             <th>Proyecto</th>
-            <td>AstJos Wiki</td>
+            <td>WWiki sobre Laboratorio Server 2025</td>
           </tr>
           <tr>
             <th>Enfoque</th>
-            <td>Infraestructura y dominios</td>
+            <td>Crear una wiki sobre el laboratorio de Server 2025 atraves de virtualización</td>
           </tr>
           <tr>
             <th>Estado</th>
