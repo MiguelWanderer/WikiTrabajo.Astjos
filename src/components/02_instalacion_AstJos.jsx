@@ -4,12 +4,15 @@ export default function InstalacionAstJos() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const images = [
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.1.png', alt: 'Paso A.1 - Descarga verificada', caption: 'Paso A.1 - Descarga verificada' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.2.png', alt: 'Paso A.2 - Instalación', caption: 'Paso A.2 - Instalación' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.3.png', alt: 'Paso A.3 - Configuración', caption: 'Paso A.3 - Configuración' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.3.5.png', alt: 'Paso A.3.5 - Red REDLAB', caption: 'Paso A.3.5 - Red REDLAB' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.4.png', alt: 'Paso A.4 - Instalación completada', caption: 'Paso A.4 - Instalación completada' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.5.png', alt: 'Paso A.5 - Configuración IP', caption: 'Paso A.5 - Configuración IP' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (1.0).png', alt: 'Paso A (1.0) - Descargar elementos necesarios', caption: 'Paso A (1.0) - Descargar elementos necesarios' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (1.1).png', alt: 'Paso A (1.1) - Verificamos que nuestra ISO de Windows', caption: 'Paso A (1.1) - Verificamos que nuestra ISO de Windows' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (2).png', alt: 'Paso A (2) - Configuración (Usuario y contraseña)', caption: 'Paso A (2) - Configuración (Usuario y contraseña)' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (4).png', alt: 'Paso A (4) - Configuración (Recursos: 50GB, 4GB RAM, 2 cores)', caption: 'Paso A (4) - Configuración (Recursos: 50GB, 4GB RAM, 2 cores)' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (5).png', alt: 'Paso A (5) - Configuración Red REDLAB', caption: 'Paso A (5) - Configuración Red REDLAB' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (6).png', alt: 'Paso A (6) - Esperamos que se instale y reiniciamos', caption: 'Paso A (6) - Esperamos que se instale y reiniciamos' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (7).png', alt: 'Paso A (7) - Configurar nombre del servidor (SRV-DC01)', caption: 'Paso A (7) - Configurar nombre del servidor (SRV-DC01)' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (8).png', alt: 'Paso A (8) - Configurar IP fija (192.168.10.10)', caption: 'Paso A (8) - Configurar IP fija (192.168.10.10)' },
+    { src: '/src/docs_AstJos/img_AstJos/PASO A/PASO A (9).png', alt: 'Paso A (9) - Verificar Firewall activo', caption: 'Paso A (9) - Verificar Firewall activo' },
   ]
 
   const goToPrevious = () => {
