@@ -80,7 +80,7 @@ export default function InstalacionAstJos() {
                 onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'}
                 onMouseLeave={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'}
               >
-                ← Anterior
+                ←
               </button>
 
               <button 
@@ -102,7 +102,7 @@ export default function InstalacionAstJos() {
                 onMouseEnter={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'}
                 onMouseLeave={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 0.5)'}
               >
-                Siguiente →
+                →
               </button>
             </div>
 
