@@ -25,6 +25,36 @@ export default function InstalacionAstJos() {
           <li>12.-Finalmente comprobamos la configuracion de el Firewal que debe encontrarse activo</li>
           <li>13.-Fin de los Pasos desde cero hacia el fin del Punto A</li>
         </ol>
+
+        <div style={{ marginTop: '30px' }}>
+          <h3>Referencia visual - Paso A</h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginTop: '15px' }}>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.1.png" alt="Paso A.1 - Descarga verificada" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.1 - Descarga verificada</figcaption>
+            </figure>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.2.png" alt="Paso A.2 - Instalación" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.2 - Instalación</figcaption>
+            </figure>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.3.png" alt="Paso A.3 - Configuración" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.3 - Configuración</figcaption>
+            </figure>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.3.5.png" alt="Paso A.3.5 - Red REDLAB" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.3.5 - Red REDLAB</figcaption>
+            </figure>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.4.png" alt="Paso A.4 - Instalación completada" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.4 - Instalación completada</figcaption>
+            </figure>
+            <figure>
+              <img src="/src/docs_AstJos/img_AstJos/PASO A/Trabajo Inacap.Instantanea1 Paso A.5.png" alt="Paso A.5 - Configuración IP" style={{ maxWidth: '100%', height: 'auto', border: '1px solid #ddd', borderRadius: '4px' }} />
+              <figcaption style={{ fontSize: '0.9em', marginTop: '8px', textAlign: 'center' }}>Paso A.5 - Configuración IP</figcaption>
+            </figure>
+          </div>
+        </div>
       </section>
 
       <section className="doc-section">
