@@ -10,10 +10,13 @@ export default function InstalacionAstJos() {
       <section className="doc-section">
         <h2>Pasos base</h2>
         <ol>
-          <li>Definir los equipos que formarán el dominio.</li>
-          <li>Asignar nombres de host y direcciones IP estáticas.</li>
-          <li>Configurar DNS y un rango de direcciones para DHCP.</li>
-          <li>Instalar los roles de servidor necesarios.</li>
+          <li>1.-Definir los elementos que nesecitamos descargar</li>
+          <li>2.-Descargar los elementos necesarios.</li>
+          <li>3.-Verificamos que Nuestra Iso de Windows,Windows server 2025 esten correctamente descargadas</li>
+          <li>4.-Instalamos el sistema Operativo de Windows server 2025</li>
+          <li>5.-Asignar nombres de host y direcciones IP estáticas.</li>
+          <li>6.-Configurar DNS y un rango de direcciones para DHCP.</li>
+          <li>7.-Instalar los roles de servidor necesarios.</li>
         </ol>
       </section>
 
