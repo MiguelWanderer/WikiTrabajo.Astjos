@@ -17,7 +17,7 @@ const sections = [
   { id: 'cliente-dominio', label: 'Cliente de Dominio', component: ClienteDominioAstJos },
   { id: 'servicios-red', label: 'Servicios de Red', component: ServiciosRedAstJos },
   { id: 'gpo', label: 'GPO', component: GpoAstJos },
-  { id: 'prompts', label: 'Prompts', component: PromptsAstJos },
+  { id: 'prompts', label: 'Bitacora de Prompts', component: PromptsAstJos },
 ]
 
 function App() {
