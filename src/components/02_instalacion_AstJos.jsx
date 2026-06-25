@@ -23,6 +23,7 @@ export default function InstalacionAstJos() {
           <li>10.-Reiniciamos</li>
           <li>11.-Configuramos el sistema de la Ip fija en el adaptador: direccion 192.168.10.10 con mascara de 255.255.255.0 con puerta de enlace vacia y Dns preferido de : 127.0.0.1</li>
           <li>12.-Finalmente comprobamos la configuracion de el Firewal que debe encontrarse activo</li>
+          <li>13.-Fin de los Pasos desde cero hacia el fin del Punto A</li>
         </ol>
       </section>
 
