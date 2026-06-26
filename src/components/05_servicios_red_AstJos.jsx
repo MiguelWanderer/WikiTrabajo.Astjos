@@ -8,13 +8,18 @@ export default function ServiciosRedAstJos() {
       </p>
 
       <section className="doc-section">
-        <h2>Servicios recomendados</h2>
-        <ul>
-          <li>DHCP para distribución automática de IP.</li>
-          <li>DNS para resolución interna de nombres.</li>
-          <li>Compartición de archivos y recursos.</li>
-          <li>Monitorización del tráfico y accesos.</li>
-        </ul>
+        <h2>DHCP (criterio 2.1.4)</h2>
+        <ol>
+          <li>
+            Administrar → Agregar roles y características → marcar Servidor DHCP → instalar. 
+            Al terminar,completar la configuración de DHCP desde la bandera de notificación.
+          </li>
+          <li>
+            Herramientas → DHCP → expandir el servidor → clic derecho en IPv4 → Ámbito nuevo: rango
+            192.168.10.50–100, máscara 255.255.255.0, servidor DNS 192.168.10.10 y dominio inacap.local.
+            Finalmente activar el ámbito.
+          </li>
+        </ol>
       </section>
     </article>
   )
