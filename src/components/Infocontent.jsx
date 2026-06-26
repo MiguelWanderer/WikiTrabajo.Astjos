@@ -6,7 +6,7 @@ export default function Infocontent() {
         <tbody>
           <tr>
             <th>Proyecto</th>
-            <td>WWiki sobre Laboratorio Server 2025</td>
+            <td>Wiki sobre Laboratorio Server 2025</td>
           </tr>
           <tr>
             <th>Enfoque</th>
