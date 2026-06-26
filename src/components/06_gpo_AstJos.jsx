@@ -6,9 +6,9 @@ export default function GpoAstJos() {
         Las GPO permiten aplicar configuraciones de forma centralizada a usuarios y
         equipos del dominio.
       </p>
-      
+
       <section className="doc-section">
-        <h2>Políticas de grupo (criterio 2.1.5)</h2>
+        <h2>Políticas de grupo</h2>
         <ol>
           <li>
             Herramientas → Administración de directivas de grupo → sobre la OU Ventas, crear un GPO en este dominio
