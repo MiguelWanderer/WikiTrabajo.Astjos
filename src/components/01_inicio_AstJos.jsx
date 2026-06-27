@@ -13,20 +13,12 @@ export default function InicioAstJos() {
           entorno de laboratorio, con foco en Active Directory, cliente de dominio,
           servicios de red y políticas de grupo.
         </p>
-      </section>
-
-      <section className="doc-section">
-        <h2>Estructura recomendada</h2>
-        <ul>
-          <li>Inicio: visión general del proyecto.</li>
-          <li>Instalación: pasos base para preparar el entorno del servidor</li>
-          <li>Active Directory: conceptos y roles fundamentales y almacen de objetos</li>
-          <li>Cliente de dominio: proceso de integración.</li>
-          <li>Servicios de red: DHCP, DNS y servicios de resolucion de nombres,asignacion de direcciones Ip.</li>
-          <li>GPO: políticas de Grupo, reglas de conficaracion de dfinicion del servidor.</li>
-          <li>Prompts: Plantillas útiles para ayudar el resultado de perfeccionamiento del Css, Dudas de React.</li>
-        </ul>
+        <h3>Alcance
+          <p>Permite definir los límites y características del proyecto, especificando qué aspectos del entorno de laboratorio serán abordados en detalle.Como manejar lo esperando al final de esta wiki que el sujeto sepa configurar, manejar, y maniobrar en windows server</p>
+        </h3>
       </section>
     </article>
   )
 }
+
+
