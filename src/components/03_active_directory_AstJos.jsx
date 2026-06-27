@@ -29,7 +29,7 @@ export default function ActiveDirectoryAstJos() {
 
       <section className="doc-section">
         <h2>Elementos clave de PASOS B</h2>
-        <ul>
+        <ol>
           <li>Dirigirnos a administrador del servidor luego a administrar para presionar en agregar roles y caracteristicas</li>
           <li>Marcar AD DS e instalar</li>
           <li>Promocionar el servidor a controlador de dominio esto en la bandera de notificacion.</li>
@@ -38,7 +38,7 @@ export default function ActiveDirectoryAstJos() {
           <li>El DNS se instala automaticamente</li>
           <li>Reiniciar</li>
           <li>Iniciamos sesion  con INACAP\Administrador para los propósitos del laboratorio.</li>
-        </ul>
+        </ol>
 
         <div style={{ marginTop: '30px' }}>
           <h3>Referencia visual - Paso B</h3>
