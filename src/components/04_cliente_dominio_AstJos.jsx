@@ -4,11 +4,16 @@ export default function ClienteDominioAstJos() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const images = [
-    { src: '/src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C.1.png', alt: 'Paso C.1', caption: 'Paso C.1' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C.1.2.png', alt: 'Paso C.1.2', caption: 'Paso C.1.2' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C.2.png', alt: 'Paso C.2', caption: 'Paso C.2' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C.2.1.png', alt: 'Paso C.2.1', caption: 'Paso C.2.1' },
-    { src: '/src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C.2.2.png', alt: 'Paso C.2.2', caption: 'Paso C.2.2' },
+    { src: 'src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C 8.png', alt: 'Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.', caption: 'Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.' },
+    { src: 'src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C 9.png', alt: 'Abrir Usuarios y equipos de Active Directory', caption: 'Abrir Usuarios y equipos de Active Directory' },
+    { src: 'src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C9,5.png', alt: 'Clic derecho sobre inacap.local → Nuevo → Unidad organizativa → nombre Ventas.', caption: 'Clic derecho sobre inacap.local → Nuevo → Unidad organizativa → nombre Ventas.' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C 10.png', alt: 'Definir la contraseña', caption: 'Definir la contraseña' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/Trabajo Inacap.Instantanea1 Paso C 11.png', alt: 'Desmarcar cambio de contraseña', caption: 'Desmarcar cambio de contraseña' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/15.5.png', alt: 'Crear el grupo J-Ventas', caption: 'Crear el grupo J-Ventas' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/13.1.png', alt: 'Crear Primer usuario', caption: 'Crear Primer usuario' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/13.2.png', alt: 'Se le da contraseña al primer usuario', caption: 'Se le da contraseña al primer usuario' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/13.4.png', alt: 'Se termina de crear los usuarios', caption: 'Se termina de crear los usuarios' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO C/16.png', alt: 'Confirmar usuarios en J-Ventas', caption: 'Confirmar usuarios en J-Ventas' },
   ]
 
   const goToPrevious = () => {
@@ -30,9 +35,8 @@ export default function ClienteDominioAstJos() {
       <section className="doc-section">
         <h2>Paso C - Creación de OU, usuarios y grupo</h2>
         <ol>
+        <li>Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.</li>
         <li>Abrir Usuarios y equipos de Active Directory</li>
-        <li>Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.</li> 
-        <li>Crear la OU Ventas llamada J-ventas</li>
         <li>Clic derecho sobre inacap.local → Nuevo → Unidad organizativa → nombre Ventas.</li>
         <li>Crear los usuarios</li>
         <li>Dentro de la OU Ventas, clic derecho → Nuevo → Usuario.</li>
@@ -42,7 +46,7 @@ export default function ClienteDominioAstJos() {
         <li>C.4 - Crear el grupo G-Ventas</li>
         <li>Clic derecho sobre Ventas → Nuevo → Grupo → nombre G-Ventas.</li>
         <li>C.5 - Agregar usuarios al grupo</li>
-        <li>En cada usuario, ir a la pestaña Miembro de → Agregar e incorporarlos al grupo G-Ventas.</li>
+        <li>En cada usuario, ir a la pestaña Miembro de → Agregar e incorporarlos al grupo J-Ventas.</li>
         </ol>
       </section>
       <div style={{ marginTop: '30px' }}>
