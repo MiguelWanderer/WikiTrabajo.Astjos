@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function ClienteDominioAstJos() {
+export default function ServiciosRedAstJos() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const images = [
