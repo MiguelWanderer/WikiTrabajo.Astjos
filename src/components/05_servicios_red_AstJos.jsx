@@ -1,4 +1,26 @@
-export default function ServiciosRedAstJos() {
+import { useState } from 'react'
+
+export default function ClienteDominioAstJos() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+
+  const images = [
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.1.PNG', alt: 'Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.', caption: 'Desde Administrador del servidor entra a Herramientas y abre Usuarios y equipos de Active Directory.' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.2.PNG', alt: 'Abrir Usuarios y equipos de Active Directory', caption: 'Abrir Usuarios y equipos de Active Directory' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.3.PNG', alt: 'Clic derecho sobre inacap.local → Nuevo → Unidad organizativa → nombre Ventas.', caption: 'Clic derecho sobre inacap.local → Nuevo → Unidad organizativa → nombre Ventas.' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.4.PNG', alt: 'Definir la contraseña', caption: 'Definir la contraseña' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.5.PNG', alt: 'Desmarcar cambio de contraseña', caption: 'Desmarcar cambio de contraseña' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/12.6.PNG', alt: 'Crear el grupo J-Ventas', caption: 'Crear el grupo J-Ventas' },
+     { src: 'src/docs_AstJos/img_AstJos/PASO D/Trabajo Inacap.Instantanea1 Paso D 13.png', alt: 'Crear Primer usuario', caption: 'Crear Primer usuario' },
+  ]
+
+  const goToPrevious = () => {
+    setCurrentImageIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
+  }
+
+  const goToNext = () => {
+    setCurrentImageIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
+  }
+
   return (
     <article className="doc-article">
       <h1>Servicios de red</h1>
