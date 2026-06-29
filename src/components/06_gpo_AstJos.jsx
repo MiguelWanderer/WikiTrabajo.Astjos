@@ -11,7 +11,8 @@ export default function GpoAstJos() {
       { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_5.png', alt: 'Paso 5', caption: 'Paso 5' },
       { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_6.png', alt: 'Paso 6', caption: 'Paso 6' },
       { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_7.png', alt: 'Paso 7', caption: 'Paso 7' },
-      { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_8.png', alt: 'Paso 8', caption: 'Paso 8' },
+      { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_8,1(1).png', alt: 'Paso 8,1', caption: 'Paso 8,1' },
+      { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_8,2(2).png', alt: 'Paso 8,2', caption: 'Paso 8,2' },
       { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_9.png', alt: 'Paso 9', caption: 'Paso 9' },
       { src: 'src/docs_AstJos/img_AstJos/PASO E/Gpo/F_Paso_10.png', alt: 'Paso 10', caption: 'Paso 10' },
   ]

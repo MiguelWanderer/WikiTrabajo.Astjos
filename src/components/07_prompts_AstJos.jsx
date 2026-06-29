@@ -73,6 +73,61 @@ export default function PromptsAstJos() {
       </section>
 
       <section className="doc-section">
+        <h2>Sesión 2026-06-29</h2>
+        
+        <h3>Prompts Utilizados</h3>
+        
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>1. Primeras imágenes en cliente de dominio</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Estoy colocando las primeras imagenes en el modulo de cliente de dominio"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>2. Comparación con el componente 03</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Por que no funcionaba la forma anterior que funciono el jsx 03?"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>3. Simplificación de pasos en carpeta C</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Ahora para simplificacion en la carpeta C escribimos solo numeros para los siguientes pasos ordenalos de forma ascendente"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>4. Ampliación de capturas en carpeta C</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Eso lo hize solo, nesecitos que pilles de la 12 hasta la 15.5"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>5. Captions con pasos</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Usa de captions nuestros pasos"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>6. Integración completa de imágenes en GPO</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Siguiendo la misma estrutura que tenemos en gpo puedes colocar todas las imagenes que tenemos en la carpeta gpo"
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: '#f5f5f5', padding: '15px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #007bff' }}>
+          <strong>7. Registro de la sesión en la bitácora</strong>
+          <p style={{ margin: '10px 0 0 0', color: '#333' }}>
+            "Me puedes mandar todos los promts que usamos para esta sesion a la bitacora 07 de prompts"
+          </p>
+        </div>
+      </section>
+
+      <section className="doc-section">
         <h2>Archivos Modificados</h2>
         <ul>
           <li><strong>src/docs_AstJos/02_instalacion_Astjos.md</strong> - Añadidas imágenes integradas</li>
