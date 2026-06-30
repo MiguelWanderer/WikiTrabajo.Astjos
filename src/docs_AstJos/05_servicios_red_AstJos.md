@@ -20,3 +20,33 @@ Abre **Herramientas -> DHCP**, expande el servidor y haz clic derecho sobre **IP
 Define el rango de direcciones entre **192.168.10.50 y 192.168.10.100**, con máscara **255.255.255.0**. Luego indica como servidor DNS **192.168.10.10** y como dominio **inacap.local**.
 
 Cuando termines la configuración, activa el ámbito para que los clientes puedan comenzar a recibir direcciones de manera automática.
+
+## Referencia visual
+
+### Paso D.1
+
+![Paso D.1 - Buscar Agregar roles y características](./img_AstJos/PASO%20D/12.1.png)
+
+### Paso D.2
+
+![Paso D.2 - Marcar Servidor DHCP](./img_AstJos/PASO%20D/12.2.png)
+
+### Paso D.3
+
+![Paso D.3 - Completar la configuración de DHCP](./img_AstJos/PASO%20D/12.3.png)
+
+### Paso D.4
+
+![Paso D.4 - Continuar con el asistente de DHCP](./img_AstJos/PASO%20D/12.4.png)
+
+### Paso D.5
+
+![Paso D.5 - Definir el ámbito del servicio](./img_AstJos/PASO%20D/12.5.png)
+
+### Paso D.6
+
+![Paso D.6 - Activar el ámbito](./img_AstJos/PASO%20D/12.6.png)
+
+### Paso D.7
+
+![Paso D.7 - Verificación final](./img_AstJos/PASO%20D/Trabajo%20Inacap.Instantanea1%20Paso%20D%2013.png)
