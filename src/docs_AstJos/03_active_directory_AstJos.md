@@ -1,16 +1,16 @@
 # Active Directory
 
 Este apartado documenta la instalación y promoción del servidor como controlador de dominio para el laboratorio.
+Por que Active Directory es un servicio dentro de nuestro Windows server,es el nucleo par ala gestion de identidades, acceso y que incorpora mejoras en la seguridad,puede ser administrado de forma visual o por Power shell aunque en neustro casao veremos la version visual o canva y a la vez tiene soporte para controladores de dominio de solo lectura algo denominado RODC.
+Es un servicio centraliador que almacenara toda nuestra ifnroamcion sobre usuarios,equipo,grupos y recursos, nos creara politicas y tiene una arquitectura jerarquica.
+Sin mas que decir pasemos a los requisitos  previos.
 
-## Objetivo
-
-Centralizar la identidad, las políticas y la administración de los equipos del dominio mediante Active Directory Domain Services.
 
 ## Requisitos Previos
 
 - Haber completado la instalación base del servidor en el Paso A.
 - Contar con acceso administrativo al sistema.
-- Tener configurada la red del laboratorio.
+- Tener configurada la red del laboratorio.(Redlab)
 
 ## Paso B - Instalación y configuración de Active Directory
 
